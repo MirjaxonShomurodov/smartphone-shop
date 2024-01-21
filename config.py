@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import os
 
-
 load_dotenv()
 
 def get_token():
@@ -10,4 +9,3 @@ def get_token():
         raise ValueError('TOKEN not found.')
     
     return TOKEN
-
